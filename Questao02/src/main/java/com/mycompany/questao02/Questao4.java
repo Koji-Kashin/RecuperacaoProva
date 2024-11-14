@@ -21,9 +21,12 @@ public class Questao4 {
 
         JOptionPane.showInputDialog("Digite um numero");
         DataInputStream num = new DataInputStream(System.in);
+        n = ler.nextInt();
         
+        int ant = n - 1;
+        int suc = n + 1;
 
-        JOptionPane.showMessageDialog(null, "Seu antecessor eh: " +   " e seu sucessor eh: "  );
+        JOptionPane.showMessageDialog(null, "Seu antecessor eh: " + ant + " e seu sucessor eh: " + suc);
 
     }
 }
